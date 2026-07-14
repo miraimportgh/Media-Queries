@@ -76,3 +76,18 @@ Do not delete any of the above code. */
   border-radius: 8px;
 
 }
+/*styling for tablet*/
+@media screen and (max-width: 991px){
+  .light-box{
+    background-color: green;
+    color: yellow;
+  }
+}
+/*styling for mobile*/
+@media screen and (max-width: 786px){
+  .light-box{
+    background-color: rgb(5, 68, 29);
+    color: #f5f6fa;
+  }
+  
+}
