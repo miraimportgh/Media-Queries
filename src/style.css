@@ -91,3 +91,22 @@ Do not delete any of the above code. */
   }
   
 }
+.layout-wrapper{
+  display:flex;
+    gap: 20px;
+}
+.main-content{
+  background-color: aqua;
+  padding: 20px;
+  color: #2c3e50;
+  text-shadow: 2px 2px 5px chocolate;
+  border-radius: 8px;
+}
+
+.sidebar{
+  background-color: rgba(206, 214, 221, 0.767);
+  padding: 20px;
+  color: #2c3e50;
+  text-shadow: 2px 2px 5px chocolate;
+  border-radius: 8px;
+}
