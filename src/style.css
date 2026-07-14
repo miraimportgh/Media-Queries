@@ -67,3 +67,12 @@ body {
 /* Please write your responsive codes after this comment.
 Do not delete any of the above code. */
 
+/*part1 c1 achived*/
+.light-box{
+  background-color: red;
+  color: azure;
+  padding: 20;
+  text-align: center;
+  border-radius: 8px;
+
+}
