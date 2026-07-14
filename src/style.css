@@ -40,7 +40,7 @@ body {
 
 /* Hidden by default on desktop screens */
 .hamburger-icon {
-  display: none;
+  /*display: none;*/
   color: white;
   font-size: 2rem;
   cursor: pointer;
@@ -71,7 +71,7 @@ Do not delete any of the above code. */
 .light-box{
   background-color: red;
   color: azure;
-  padding: 20;
+  padding: 20px;
   text-align: center;
   border-radius: 8px;
 
@@ -83,11 +83,14 @@ Do not delete any of the above code. */
     color: yellow;
   }
 }
+
+
 /*styling for mobile*/
 @media screen and (max-width: 786px){
   .light-box{
     background-color: rgb(5, 68, 29);
     color: #f5f6fa;
+  }
   }
 
  /* c2 styling for mobile*/
@@ -96,11 +99,12 @@ Do not delete any of the above code. */
  }
  
  /* c2 side by side view on desktop*/
-}
+
 .layout-wrapper{
   display:flex;
     gap: 20px;
 }
+
 .main-content{
   background-color: aqua;
   padding: 20px;
@@ -115,4 +119,25 @@ Do not delete any of the above code. */
   color: #2c3e50;
   text-shadow: 2px 2px 5px chocolate;
   border-radius: 8px;
+}
+.hamburger-icon{
+  display: block;
+}
+
+.nav-links{
+ /* display: none;*/
+ background-color: #3498db;
+ position: absolute;
+ top: 100;
+ right: 0;
+ padding: 10px 0px;
+ width: 200px;
+}
+
+.nav-links li{
+  margin: 10px 0px;
+}
+.menu-container:hover .nav-links{
+  display: flex;
+  flex-direction: column;
 }
