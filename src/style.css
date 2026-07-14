@@ -89,7 +89,13 @@ Do not delete any of the above code. */
     background-color: rgb(5, 68, 29);
     color: #f5f6fa;
   }
-  
+
+ /* c2 styling for mobile*/
+ .layout-wrapper{
+  flex-direction: column;
+ }
+ 
+ /* c2 side by side view on desktop*/
 }
 .layout-wrapper{
   display:flex;
